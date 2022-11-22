@@ -23,7 +23,45 @@ body {
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
-  line-height: 30px;
+  line-height: 18px;
   margin: 33px;
+}
 
+h1{
+  margin: 17.24px 0;
+  line-height: 18px;
+}
+
+h2{
+  margin:  16.185px 0px;
+}
+
+.top_text{
+  margin: 33px;
+}
+
+td{
+  padding: 1px 5px 7px;
+  margin: 33px;
+  height: 26px;
+}
+thead{
+  padding: 1px 1px 5px;
+  height: 24px;
+}
+
+string{
+  font-weight: bold;
+}
+
+.success-message{
+  color: green;
+}
+
+.book_main{
+  margin-bottom: 10px;
+}
+
+.show_text{
+  margin: 33px;
 }

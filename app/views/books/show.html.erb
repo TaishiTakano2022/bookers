@@ -1,14 +1,14 @@
 
-  <p class="success-message">Book was successfully created.</p>
+<p class="success-message">Book was successfully created.</p>
 <!--↑sccで緑色にする-->
 
-<p>
+
+<p class="show_text">
   <string>Title:</string> <%= @book.title %>
 </p>
-<p>
+<p class="show_text">
   <string>Body:</string> <%= @book.body %>
 </p>
 
-<p>
+
   <%= link_to "Edit", "/books/#{@book.id}/edit" %> | <%= link_to "Back", books_path %>
-</p>
